@@ -1,10 +1,17 @@
+body{
+  background-image: url('/img/milky-way-galaxy-with-stars-space-dust-universe.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
 .connect-wallet-modal {
   width: 450px;
   height: auto;
   background: #1a1a1a;
-  margin: auto;
+  margin: 50% auto;
   padding: 25px 40px;
   border-radius: 20px;
+  
 }
 .connect-wallet-title {
   color: #fff;
@@ -31,4 +38,7 @@
 }
 .connect-wallet-footer a {
   color: rgb(0, 157, 154);
+}
+.wallet-list img{
+  width: 26px;
 }
